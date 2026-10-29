@@ -1,0 +1,29 @@
+name: Story
+description: A small customer outcome with testable acceptance criteria
+title: ""
+labels: ["type:story"]
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Customer outcome
+      description: Who benefits and what becomes possible? Keep the slice small.
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Acceptance criteria
+      description: Give concrete examples, or exact authoritative specification sections and revision. A reference alone is not acceptance evidence.
+    validations:
+      required: true
+  - type: textarea
+    id: boundaries
+    attributes:
+      label: Scope and exclusions
+      description: State important boundaries, dependencies and unknowns.
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance evidence and decision
+      description: Fill during delivery with evidence/revision and the owner or authorized delegate's decision. Leave empty at creation if not yet available.

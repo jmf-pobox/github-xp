@@ -1,0 +1,14 @@
+.DS_Store
+*.swp
+*.swo
+_sources/
+research/*
+!research/README.md
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+.pytest_cache/
+
+# Raw local spike API audit; curated evidence is in docs/spike.
+docs/spike/api-log.jsonl

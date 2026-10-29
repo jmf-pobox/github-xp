@@ -1,0 +1,979 @@
+{
+  "node": {
+    "id": "PVT_kwHOCUA9U84BpNQQ",
+    "title": "XP spike \u2014 XPlanner on GitHub",
+    "url": "https://github.com/users/jmf-pobox/projects/3",
+    "public": false,
+    "views": {
+      "nodes": [
+        {
+          "id": "PVTV_lAHOCUA9U84BpNQQzgMSuOs",
+          "name": "Backlog",
+          "number": 1,
+          "layout": "TABLE_LAYOUT",
+          "filter": "label:\"type:story\" is:open no:iteration",
+          "groupByFields": {
+            "nodes": []
+          },
+          "verticalGroupByFields": {
+            "nodes": []
+          }
+        },
+        {
+          "id": "PVTV_lAHOCUA9U84BpNQQzgMSuW4",
+          "name": "Iteration Planning",
+          "number": 2,
+          "layout": "TABLE_LAYOUT",
+          "filter": "label:\"type:story\" is:open",
+          "groupByFields": {
+            "nodes": [
+              {
+                "id": "PVTIF_lAHOCUA9U84BpNQQzhnp6kE",
+                "name": "Iteration"
+              }
+            ]
+          },
+          "verticalGroupByFields": {
+            "nodes": []
+          }
+        },
+        {
+          "id": "PVTV_lAHOCUA9U84BpNQQzgMSuXE",
+          "name": "Current Iteration",
+          "number": 3,
+          "layout": "BOARD_LAYOUT",
+          "filter": "iteration:@current",
+          "groupByFields": {
+            "nodes": []
+          },
+          "verticalGroupByFields": {
+            "nodes": [
+              {
+                "id": "PVTSSF_lAHOCUA9U84BpNQQzhnp6H4",
+                "name": "Status"
+              }
+            ]
+          }
+        },
+        {
+          "id": "PVTV_lAHOCUA9U84BpNQQzgMSuXQ",
+          "name": "Release Plan",
+          "number": 4,
+          "layout": "TABLE_LAYOUT",
+          "filter": "label:\"type:story\"",
+          "groupByFields": {
+            "nodes": []
+          },
+          "verticalGroupByFields": {
+            "nodes": []
+          }
+        },
+        {
+          "id": "PVTV_lAHOCUA9U84BpNQQzgMSuXU",
+          "name": "Attention",
+          "number": 5,
+          "layout": "TABLE_LAYOUT",
+          "filter": "label:\"xp:attention\" is:open",
+          "groupByFields": {
+            "nodes": []
+          },
+          "verticalGroupByFields": {
+            "nodes": []
+          }
+        },
+        {
+          "id": "PVTV_lAHOCUA9U84BpNQQzgMSuXc",
+          "name": "Iteration Roadmap",
+          "number": 6,
+          "layout": "ROADMAP_LAYOUT",
+          "filter": "label:\"type:story\"",
+          "groupByFields": {
+            "nodes": []
+          },
+          "verticalGroupByFields": {
+            "nodes": []
+          }
+        },
+        {
+          "id": "PVTV_lAHOCUA9U84BpNQQzgMSuYI",
+          "name": "Delivered Stories",
+          "number": 7,
+          "layout": "TABLE_LAYOUT",
+          "filter": "label:\"type:story\" is:closed",
+          "groupByFields": {
+            "nodes": []
+          },
+          "verticalGroupByFields": {
+            "nodes": []
+          }
+        },
+        {
+          "id": "PVTV_lAHOCUA9U84BpNQQzgMSugc",
+          "name": "Release Planning by Milestone",
+          "number": 8,
+          "layout": "TABLE_LAYOUT",
+          "filter": "label:\"type:story\"",
+          "groupByFields": {
+            "nodes": [
+              {
+                "id": "PVTF_lAHOCUA9U84BpNQQzhnp6IE",
+                "name": "Milestone"
+              }
+            ]
+          },
+          "verticalGroupByFields": {
+            "nodes": []
+          }
+        }
+      ]
+    },
+    "workflows": {
+      "nodes": [
+        {
+          "name": "Auto-add sub-issues to project",
+          "enabled": true
+        },
+        {
+          "name": "Auto-close issue",
+          "enabled": false
+        },
+        {
+          "name": "Item added to project",
+          "enabled": true
+        },
+        {
+          "name": "Item closed",
+          "enabled": true
+        },
+        {
+          "name": "Pull request linked to issue",
+          "enabled": true
+        },
+        {
+          "name": "Pull request merged",
+          "enabled": true
+        }
+      ]
+    },
+    "items": {
+      "pageInfo": {
+        "hasNextPage": false
+      },
+      "nodes": [
+        {
+          "id": "PVTI_lAHOCUA9U84BpNQQzhEV5U0",
+          "content": {
+            "id": "I_kwDOVbIkuM8AAAABavx_jA",
+            "number": 1,
+            "title": "[XP demo] Browse a small vocabulary deck",
+            "state": "CLOSED",
+            "stateReason": "COMPLETED",
+            "labels": {
+              "nodes": [
+                {
+                  "name": "xp:demo"
+                },
+                {
+                  "name": "type:story"
+                }
+              ]
+            },
+            "milestone": {
+              "title": "xp-demo-v0.1"
+            },
+            "subIssuesSummary": {
+              "total": 1,
+              "completed": 1,
+              "percentCompleted": 100
+            },
+            "blockedBy": {
+              "nodes": []
+            }
+          },
+          "fieldValues": {
+            "nodes": [
+              {},
+              {},
+              {},
+              {},
+              {
+                "name": "Done",
+                "field": {
+                  "name": "Status"
+                }
+              },
+              {
+                "number": 3.0,
+                "field": {
+                  "name": "Points"
+                }
+              },
+              {
+                "title": "Demo 1",
+                "iterationId": "555a3b55",
+                "field": {
+                  "name": "Iteration"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "PVTI_lAHOCUA9U84BpNQQzhEV5Zk",
+          "content": {
+            "id": "I_kwDOVbIkuM8AAAABavyDog",
+            "number": 2,
+            "title": "[XP demo] Hear pronunciation on each card",
+            "state": "CLOSED",
+            "stateReason": "COMPLETED",
+            "labels": {
+              "nodes": [
+                {
+                  "name": "xp:demo"
+                },
+                {
+                  "name": "type:story"
+                }
+              ]
+            },
+            "milestone": {
+              "title": "xp-demo-v0.1"
+            },
+            "subIssuesSummary": {
+              "total": 1,
+              "completed": 1,
+              "percentCompleted": 100
+            },
+            "blockedBy": {
+              "nodes": []
+            }
+          },
+          "fieldValues": {
+            "nodes": [
+              {},
+              {},
+              {},
+              {},
+              {
+                "name": "Done",
+                "field": {
+                  "name": "Status"
+                }
+              },
+              {
+                "number": 2.0,
+                "field": {
+                  "name": "Points"
+                }
+              },
+              {
+                "title": "Demo 1",
+                "iterationId": "555a3b55",
+                "field": {
+                  "name": "Iteration"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "PVTI_lAHOCUA9U84BpNQQzhEV5cg",
+          "content": {
+            "id": "I_kwDOVbIkuM8AAAABavyH1w",
+            "number": 3,
+            "title": "[XP demo] Learn a verb from an example sentence",
+            "state": "OPEN",
+            "stateReason": null,
+            "labels": {
+              "nodes": [
+                {
+                  "name": "xp:demo"
+                },
+                {
+                  "name": "type:story"
+                }
+              ]
+            },
+            "milestone": {
+              "title": "xp-demo-v0.1"
+            },
+            "subIssuesSummary": {
+              "total": 3,
+              "completed": 2,
+              "percentCompleted": 66
+            },
+            "blockedBy": {
+              "nodes": []
+            }
+          },
+          "fieldValues": {
+            "nodes": [
+              {},
+              {},
+              {},
+              {},
+              {
+                "name": "In Progress",
+                "field": {
+                  "name": "Status"
+                }
+              },
+              {
+                "number": 3.0,
+                "field": {
+                  "name": "Points"
+                }
+              },
+              {
+                "title": "Demo 3",
+                "iterationId": "2d5a0126",
+                "field": {
+                  "name": "Iteration"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "PVTI_lAHOCUA9U84BpNQQzhEV5f0",
+          "content": {
+            "id": "I_kwDOVbIkuM8AAAABavyMAQ",
+            "number": 4,
+            "title": "[XP demo] See readable cards in Anki",
+            "state": "OPEN",
+            "stateReason": null,
+            "labels": {
+              "nodes": [
+                {
+                  "name": "xp:demo"
+                },
+                {
+                  "name": "type:story"
+                },
+                {
+                  "name": "xp:attention"
+                }
+              ]
+            },
+            "milestone": {
+              "title": "xp-demo-v0.1"
+            },
+            "subIssuesSummary": {
+              "total": 1,
+              "completed": 1,
+              "percentCompleted": 100
+            },
+            "blockedBy": {
+              "nodes": []
+            }
+          },
+          "fieldValues": {
+            "nodes": [
+              {},
+              {},
+              {},
+              {},
+              {
+                "name": "In Progress",
+                "field": {
+                  "name": "Status"
+                }
+              },
+              {
+                "number": 2.0,
+                "field": {
+                  "name": "Points"
+                }
+              },
+              {
+                "title": "Demo 2",
+                "iterationId": "c7ebe15f",
+                "field": {
+                  "name": "Iteration"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "PVTI_lAHOCUA9U84BpNQQzhEV5jw",
+          "content": {
+            "id": "I_kwDOVbIkuM8AAAABavyPoQ",
+            "number": 5,
+            "title": "[XP demo] Choose regional vocabulary variants",
+            "state": "OPEN",
+            "stateReason": null,
+            "labels": {
+              "nodes": [
+                {
+                  "name": "xp:demo"
+                },
+                {
+                  "name": "type:story"
+                }
+              ]
+            },
+            "milestone": {
+              "title": "xp-demo-v0.2"
+            },
+            "subIssuesSummary": {
+              "total": 1,
+              "completed": 0,
+              "percentCompleted": 0
+            },
+            "blockedBy": {
+              "nodes": []
+            }
+          },
+          "fieldValues": {
+            "nodes": [
+              {},
+              {},
+              {},
+              {},
+              {
+                "name": "Todo",
+                "field": {
+                  "name": "Status"
+                }
+              },
+              {
+                "number": 5.0,
+                "field": {
+                  "name": "Points"
+                }
+              },
+              {
+                "title": "Demo 3",
+                "iterationId": "2d5a0126",
+                "field": {
+                  "name": "Iteration"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "PVTI_lAHOCUA9U84BpNQQzhEV5nA",
+          "content": {
+            "id": "I_kwDOVbIkuM8AAAABavyTow",
+            "number": 6,
+            "title": "[XP demo] Resume the last practice session",
+            "state": "OPEN",
+            "stateReason": null,
+            "labels": {
+              "nodes": [
+                {
+                  "name": "xp:demo"
+                },
+                {
+                  "name": "type:story"
+                }
+              ]
+            },
+            "milestone": {
+              "title": "xp-demo-v0.2"
+            },
+            "subIssuesSummary": {
+              "total": 1,
+              "completed": 0,
+              "percentCompleted": 0
+            },
+            "blockedBy": {
+              "nodes": []
+            }
+          },
+          "fieldValues": {
+            "nodes": [
+              {},
+              {},
+              {},
+              {},
+              {
+                "name": "Todo",
+                "field": {
+                  "name": "Status"
+                }
+              },
+              {
+                "number": 3.0,
+                "field": {
+                  "name": "Points"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "PVTI_lAHOCUA9U84BpNQQzhEV5q0",
+          "content": {
+            "id": "I_kwDOVbIkuM8AAAABavyWQw",
+            "number": 7,
+            "title": "[XP demo] Export the vocabulary fields",
+            "state": "CLOSED",
+            "stateReason": "COMPLETED",
+            "labels": {
+              "nodes": [
+                {
+                  "name": "xp:demo"
+                },
+                {
+                  "name": "type:task"
+                }
+              ]
+            },
+            "milestone": {
+              "title": "xp-demo-v0.1"
+            },
+            "subIssuesSummary": {
+              "total": 0,
+              "completed": 0,
+              "percentCompleted": 0
+            },
+            "blockedBy": {
+              "nodes": []
+            }
+          },
+          "fieldValues": {
+            "nodes": [
+              {},
+              {},
+              {},
+              {},
+              {
+                "name": "Done",
+                "field": {
+                  "name": "Status"
+                }
+              },
+              {
+                "title": "Demo 1",
+                "iterationId": "555a3b55",
+                "field": {
+                  "name": "Iteration"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "PVTI_lAHOCUA9U84BpNQQzhEV5wI",
+          "content": {
+            "id": "I_kwDOVbIkuM8AAAABavya1w",
+            "number": 8,
+            "title": "[XP demo] Attach pronunciation audio",
+            "state": "CLOSED",
+            "stateReason": "COMPLETED",
+            "labels": {
+              "nodes": [
+                {
+                  "name": "xp:demo"
+                },
+                {
+                  "name": "type:task"
+                }
+              ]
+            },
+            "milestone": {
+              "title": "xp-demo-v0.1"
+            },
+            "subIssuesSummary": {
+              "total": 0,
+              "completed": 0,
+              "percentCompleted": 0
+            },
+            "blockedBy": {
+              "nodes": []
+            }
+          },
+          "fieldValues": {
+            "nodes": [
+              {},
+              {},
+              {},
+              {},
+              {
+                "name": "Done",
+                "field": {
+                  "name": "Status"
+                }
+              },
+              {
+                "title": "Demo 1",
+                "iterationId": "555a3b55",
+                "field": {
+                  "name": "Iteration"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "PVTI_lAHOCUA9U84BpNQQzhEV51E",
+          "content": {
+            "id": "I_kwDOVbIkuM8AAAABavyfZQ",
+            "number": 9,
+            "title": "[XP demo] Generate an example sentence",
+            "state": "CLOSED",
+            "stateReason": "COMPLETED",
+            "labels": {
+              "nodes": [
+                {
+                  "name": "xp:demo"
+                },
+                {
+                  "name": "type:task"
+                }
+              ]
+            },
+            "milestone": {
+              "title": "xp-demo-v0.1"
+            },
+            "subIssuesSummary": {
+              "total": 0,
+              "completed": 0,
+              "percentCompleted": 0
+            },
+            "blockedBy": {
+              "nodes": []
+            }
+          },
+          "fieldValues": {
+            "nodes": [
+              {},
+              {},
+              {},
+              {},
+              {
+                "name": "Done",
+                "field": {
+                  "name": "Status"
+                }
+              },
+              {
+                "title": "Demo 2",
+                "iterationId": "c7ebe15f",
+                "field": {
+                  "name": "Iteration"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "PVTI_lAHOCUA9U84BpNQQzhEV540",
+          "content": {
+            "id": "I_kwDOVbIkuM8AAAABavykgg",
+            "number": 10,
+            "title": "[XP demo] Render the sentence on the card",
+            "state": "OPEN",
+            "stateReason": null,
+            "labels": {
+              "nodes": [
+                {
+                  "name": "xp:demo"
+                },
+                {
+                  "name": "type:task"
+                }
+              ]
+            },
+            "milestone": {
+              "title": "xp-demo-v0.1"
+            },
+            "subIssuesSummary": {
+              "total": 0,
+              "completed": 0,
+              "percentCompleted": 0
+            },
+            "blockedBy": {
+              "nodes": []
+            }
+          },
+          "fieldValues": {
+            "nodes": [
+              {},
+              {},
+              {},
+              {},
+              {
+                "name": "In Progress",
+                "field": {
+                  "name": "Status"
+                }
+              },
+              {
+                "title": "Demo 3",
+                "iterationId": "2d5a0126",
+                "field": {
+                  "name": "Iteration"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "PVTI_lAHOCUA9U84BpNQQzhEV58g",
+          "content": {
+            "id": "I_kwDOVbIkuM8AAAABavyo-Q",
+            "number": 11,
+            "title": "[XP demo] Verify card fields and media export",
+            "state": "CLOSED",
+            "stateReason": "COMPLETED",
+            "labels": {
+              "nodes": [
+                {
+                  "name": "xp:demo"
+                },
+                {
+                  "name": "type:task"
+                }
+              ]
+            },
+            "milestone": {
+              "title": "xp-demo-v0.1"
+            },
+            "subIssuesSummary": {
+              "total": 0,
+              "completed": 0,
+              "percentCompleted": 0
+            },
+            "blockedBy": {
+              "nodes": []
+            }
+          },
+          "fieldValues": {
+            "nodes": [
+              {},
+              {},
+              {},
+              {},
+              {
+                "name": "Done",
+                "field": {
+                  "name": "Status"
+                }
+              },
+              {
+                "title": "Demo 2",
+                "iterationId": "c7ebe15f",
+                "field": {
+                  "name": "Iteration"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "PVTI_lAHOCUA9U84BpNQQzhEV6AU",
+          "content": {
+            "id": "I_kwDOVbIkuM8AAAABavytpA",
+            "number": 12,
+            "title": "[XP demo] Implement region selection",
+            "state": "OPEN",
+            "stateReason": null,
+            "labels": {
+              "nodes": [
+                {
+                  "name": "xp:demo"
+                },
+                {
+                  "name": "type:task"
+                }
+              ]
+            },
+            "milestone": {
+              "title": "xp-demo-v0.2"
+            },
+            "subIssuesSummary": {
+              "total": 0,
+              "completed": 0,
+              "percentCompleted": 0
+            },
+            "blockedBy": {
+              "nodes": [
+                {
+                  "number": 14,
+                  "title": "[XP demo] Decide how regional vocabulary is selected"
+                }
+              ]
+            }
+          },
+          "fieldValues": {
+            "nodes": [
+              {},
+              {},
+              {},
+              {},
+              {
+                "name": "Todo",
+                "field": {
+                  "name": "Status"
+                }
+              },
+              {
+                "title": "Demo 3",
+                "iterationId": "2d5a0126",
+                "field": {
+                  "name": "Iteration"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "PVTI_lAHOCUA9U84BpNQQzhEV6EM",
+          "content": {
+            "id": "I_kwDOVbIkuM8AAAABavyxtg",
+            "number": 13,
+            "title": "[XP demo] Persist the last practice position",
+            "state": "OPEN",
+            "stateReason": null,
+            "labels": {
+              "nodes": [
+                {
+                  "name": "xp:demo"
+                },
+                {
+                  "name": "type:task"
+                }
+              ]
+            },
+            "milestone": {
+              "title": "xp-demo-v0.2"
+            },
+            "subIssuesSummary": {
+              "total": 0,
+              "completed": 0,
+              "percentCompleted": 0
+            },
+            "blockedBy": {
+              "nodes": []
+            }
+          },
+          "fieldValues": {
+            "nodes": [
+              {},
+              {},
+              {},
+              {},
+              {
+                "name": "Todo",
+                "field": {
+                  "name": "Status"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "PVTI_lAHOCUA9U84BpNQQzhEV6HQ",
+          "content": {
+            "id": "I_kwDOVbIkuM8AAAABavy2Pw",
+            "number": 14,
+            "title": "[XP demo] Decide how regional vocabulary is selected",
+            "state": "OPEN",
+            "stateReason": null,
+            "labels": {
+              "nodes": [
+                {
+                  "name": "xp:demo"
+                },
+                {
+                  "name": "type:spike"
+                },
+                {
+                  "name": "xp:attention"
+                }
+              ]
+            },
+            "milestone": {
+              "title": "xp-demo-v0.2"
+            },
+            "subIssuesSummary": {
+              "total": 0,
+              "completed": 0,
+              "percentCompleted": 0
+            },
+            "blockedBy": {
+              "nodes": []
+            }
+          },
+          "fieldValues": {
+            "nodes": [
+              {},
+              {},
+              {},
+              {},
+              {
+                "name": "Todo",
+                "field": {
+                  "name": "Status"
+                }
+              },
+              {
+                "title": "Demo 2",
+                "iterationId": "c7ebe15f",
+                "field": {
+                  "name": "Iteration"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "PVTI_lAHOCUA9U84BpNQQzhEV8AM",
+          "content": {
+            "id": "I_kwDOVbIkuM8AAAABav0uHQ",
+            "number": 15,
+            "title": "[XP demo] Verify example-sentence export",
+            "state": "CLOSED",
+            "stateReason": "COMPLETED",
+            "labels": {
+              "nodes": [
+                {
+                  "name": "xp:demo"
+                },
+                {
+                  "name": "type:task"
+                }
+              ]
+            },
+            "milestone": {
+              "title": "xp-demo-v0.1"
+            },
+            "subIssuesSummary": {
+              "total": 0,
+              "completed": 0,
+              "percentCompleted": 0
+            },
+            "blockedBy": {
+              "nodes": []
+            }
+          },
+          "fieldValues": {
+            "nodes": [
+              {},
+              {},
+              {},
+              {},
+              {
+                "name": "Done",
+                "field": {
+                  "name": "Status"
+                }
+              },
+              {
+                "title": "Demo 2",
+                "iterationId": "c7ebe15f",
+                "field": {
+                  "name": "Iteration"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

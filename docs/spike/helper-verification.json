@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-29 UTC",
+  "history_issue": "https://github.com/jmf-pobox/github-xp/issues/16",
+  "created_spike": "https://github.com/jmf-pobox/github-xp/issues/17",
+  "item_id": "PVTI_lAHOCUA9U84BpNQQzhEWREw",
+  "operation_id": "helper-create-20261029",
+  "repeat_preview": {
+    "mode": "preview",
+    "output": {
+      "issue": "jmf-pobox/github-xp#17",
+      "estimate": "unknown"
+    },
+    "actions": []
+  },
+  "result": "creation and identical retry verified; no Points or acceptance credit"
+}

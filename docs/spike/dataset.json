@@ -1,0 +1,156 @@
+[
+  {
+    "key": "s1",
+    "kind": "story",
+    "title": "Browse a small vocabulary deck",
+    "points": 3,
+    "iteration": "Demo 1",
+    "status": "Done",
+    "parent": null,
+    "attention": false,
+    "milestone": "xp-demo-v0.1"
+  },
+  {
+    "key": "s2",
+    "kind": "story",
+    "title": "Hear pronunciation on each card",
+    "points": 2,
+    "iteration": "Demo 1",
+    "status": "Done",
+    "parent": null,
+    "attention": false,
+    "milestone": "xp-demo-v0.1"
+  },
+  {
+    "key": "s3",
+    "kind": "story",
+    "title": "Learn a verb from an example sentence",
+    "points": 3,
+    "iteration": "Demo 2",
+    "status": "In Progress",
+    "parent": null,
+    "attention": false,
+    "milestone": "xp-demo-v0.1"
+  },
+  {
+    "key": "s4",
+    "kind": "story",
+    "title": "See readable cards in Anki",
+    "points": 2,
+    "iteration": "Demo 2",
+    "status": "In Progress",
+    "parent": null,
+    "attention": true,
+    "milestone": "xp-demo-v0.1"
+  },
+  {
+    "key": "s5",
+    "kind": "story",
+    "title": "Choose regional vocabulary variants",
+    "points": 5,
+    "iteration": "Demo 3",
+    "status": "Todo",
+    "parent": null,
+    "attention": false,
+    "milestone": "xp-demo-v0.2"
+  },
+  {
+    "key": "s6",
+    "kind": "story",
+    "title": "Resume the last practice session",
+    "points": 3,
+    "iteration": null,
+    "status": "Todo",
+    "parent": null,
+    "attention": false,
+    "milestone": "xp-demo-v0.2"
+  },
+  {
+    "key": "t1",
+    "kind": "task",
+    "title": "Export the vocabulary fields",
+    "points": null,
+    "iteration": "Demo 1",
+    "status": "Done",
+    "parent": "s1",
+    "attention": false,
+    "milestone": "xp-demo-v0.1"
+  },
+  {
+    "key": "t2",
+    "kind": "task",
+    "title": "Attach pronunciation audio",
+    "points": null,
+    "iteration": "Demo 1",
+    "status": "Done",
+    "parent": "s2",
+    "attention": false,
+    "milestone": "xp-demo-v0.1"
+  },
+  {
+    "key": "t3",
+    "kind": "task",
+    "title": "Generate an example sentence",
+    "points": null,
+    "iteration": "Demo 2",
+    "status": "Done",
+    "parent": "s3",
+    "attention": false,
+    "milestone": "xp-demo-v0.1"
+  },
+  {
+    "key": "t4",
+    "kind": "task",
+    "title": "Render the sentence on the card",
+    "points": null,
+    "iteration": "Demo 2",
+    "status": "In Progress",
+    "parent": "s3",
+    "attention": false,
+    "milestone": "xp-demo-v0.1"
+  },
+  {
+    "key": "t5",
+    "kind": "task",
+    "title": "Verify card fields and media export",
+    "points": null,
+    "iteration": "Demo 2",
+    "status": "Done",
+    "parent": "s4",
+    "attention": false,
+    "milestone": "xp-demo-v0.1"
+  },
+  {
+    "key": "t6",
+    "kind": "task",
+    "title": "Implement region selection",
+    "points": null,
+    "iteration": "Demo 3",
+    "status": "Todo",
+    "parent": "s5",
+    "attention": false,
+    "milestone": "xp-demo-v0.2"
+  },
+  {
+    "key": "t7",
+    "kind": "task",
+    "title": "Persist the last practice position",
+    "points": null,
+    "iteration": null,
+    "status": "Todo",
+    "parent": "s6",
+    "attention": false,
+    "milestone": "xp-demo-v0.2"
+  },
+  {
+    "key": "sp1",
+    "kind": "spike",
+    "title": "Decide how regional vocabulary is selected",
+    "points": null,
+    "iteration": "Demo 2",
+    "status": "Todo",
+    "parent": null,
+    "attention": true,
+    "milestone": "xp-demo-v0.2"
+  }
+]

@@ -1,0 +1,168 @@
+{
+  "snapshot": "2026-10-29 UTC",
+  "checks": "passed",
+  "story_points_by_assignment": {
+    "Demo 1": 5.0,
+    "Demo 3": 8.0,
+    "Demo 2": 2.0,
+    "Backlog": 3.0
+  },
+  "items": [
+    {
+      "issue": 1,
+      "state": "CLOSED",
+      "labels": [
+        "xp:demo",
+        "type:story"
+      ],
+      "Status": "Done",
+      "Points": 3.0,
+      "Iteration": "Demo 1"
+    },
+    {
+      "issue": 2,
+      "state": "CLOSED",
+      "labels": [
+        "xp:demo",
+        "type:story"
+      ],
+      "Status": "Done",
+      "Points": 2.0,
+      "Iteration": "Demo 1"
+    },
+    {
+      "issue": 3,
+      "state": "OPEN",
+      "labels": [
+        "xp:demo",
+        "type:story"
+      ],
+      "Status": "In Progress",
+      "Points": 3.0,
+      "Iteration": "Demo 3"
+    },
+    {
+      "issue": 4,
+      "state": "OPEN",
+      "labels": [
+        "xp:demo",
+        "type:story",
+        "xp:attention"
+      ],
+      "Status": "In Progress",
+      "Points": 2.0,
+      "Iteration": "Demo 2"
+    },
+    {
+      "issue": 5,
+      "state": "OPEN",
+      "labels": [
+        "xp:demo",
+        "type:story"
+      ],
+      "Status": "Todo",
+      "Points": 5.0,
+      "Iteration": "Demo 3"
+    },
+    {
+      "issue": 6,
+      "state": "OPEN",
+      "labels": [
+        "xp:demo",
+        "type:story"
+      ],
+      "Status": "Todo",
+      "Points": 3.0
+    },
+    {
+      "issue": 7,
+      "state": "CLOSED",
+      "labels": [
+        "xp:demo",
+        "type:task"
+      ],
+      "Status": "Done",
+      "Iteration": "Demo 1"
+    },
+    {
+      "issue": 8,
+      "state": "CLOSED",
+      "labels": [
+        "xp:demo",
+        "type:task"
+      ],
+      "Status": "Done",
+      "Iteration": "Demo 1"
+    },
+    {
+      "issue": 9,
+      "state": "CLOSED",
+      "labels": [
+        "xp:demo",
+        "type:task"
+      ],
+      "Status": "Done",
+      "Iteration": "Demo 2"
+    },
+    {
+      "issue": 10,
+      "state": "OPEN",
+      "labels": [
+        "xp:demo",
+        "type:task"
+      ],
+      "Status": "In Progress",
+      "Iteration": "Demo 3"
+    },
+    {
+      "issue": 11,
+      "state": "CLOSED",
+      "labels": [
+        "xp:demo",
+        "type:task"
+      ],
+      "Status": "Done",
+      "Iteration": "Demo 2"
+    },
+    {
+      "issue": 12,
+      "state": "OPEN",
+      "labels": [
+        "xp:demo",
+        "type:task"
+      ],
+      "Status": "Todo",
+      "Iteration": "Demo 3"
+    },
+    {
+      "issue": 13,
+      "state": "OPEN",
+      "labels": [
+        "xp:demo",
+        "type:task"
+      ],
+      "Status": "Todo"
+    },
+    {
+      "issue": 14,
+      "state": "OPEN",
+      "labels": [
+        "xp:demo",
+        "type:spike",
+        "xp:attention"
+      ],
+      "Status": "Todo",
+      "Iteration": "Demo 2"
+    },
+    {
+      "issue": 15,
+      "state": "CLOSED",
+      "labels": [
+        "xp:demo",
+        "type:task"
+      ],
+      "Status": "Done",
+      "Iteration": "Demo 2"
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "project": {
+    "id": "PVT_kwHOCUA9U84BpNQQ",
+    "number": 3,
+    "title": "XP spike \u2014 XPlanner on GitHub",
+    "url": "https://github.com/users/jmf-pobox/projects/3"
+  },
+  "repo": "jmf-pobox/github-xp",
+  "issues": {
+    "s1": {
+      "number": 1,
+      "id": 6089899916,
+      "node_id": "I_kwDOVbIkuM8AAAABavx_jA",
+      "url": "https://github.com/jmf-pobox/github-xp/issues/1",
+      "kind": "story",
+      "item_id": "PVTI_lAHOCUA9U84BpNQQzhEV5U0"
+    },
+    "s2": {
+      "number": 2,
+      "id": 6089900962,
+      "node_id": "I_kwDOVbIkuM8AAAABavyDog",
+      "url": "https://github.com/jmf-pobox/github-xp/issues/2",
+      "kind": "story",
+      "item_id": "PVTI_lAHOCUA9U84BpNQQzhEV5Zk"
+    },
+    "s3": {
+      "number": 3,
+      "id": 6089902039,
+      "node_id": "I_kwDOVbIkuM8AAAABavyH1w",
+      "url": "https://github.com/jmf-pobox/github-xp/issues/3",
+      "kind": "story",
+      "item_id": "PVTI_lAHOCUA9U84BpNQQzhEV5cg"
+    },
+    "s4": {
+      "number": 4,
+      "id": 6089903105,
+      "node_id": "I_kwDOVbIkuM8AAAABavyMAQ",
+      "url": "https://github.com/jmf-pobox/github-xp/issues/4",
+      "kind": "story",
+      "item_id": "PVTI_lAHOCUA9U84BpNQQzhEV5f0"
+    },
+    "s5": {
+      "number": 5,
+      "id": 6089904033,
+      "node_id": "I_kwDOVbIkuM8AAAABavyPoQ",
+      "url": "https://github.com/jmf-pobox/github-xp/issues/5",
+      "kind": "story",
+      "item_id": "PVTI_lAHOCUA9U84BpNQQzhEV5jw"
+    },
+    "s6": {
+      "number": 6,
+      "id": 6089905059,
+      "node_id": "I_kwDOVbIkuM8AAAABavyTow",
+      "url": "https://github.com/jmf-pobox/github-xp/issues/6",
+      "kind": "story",
+      "item_id": "PVTI_lAHOCUA9U84BpNQQzhEV5nA"
+    },
+    "t1": {
+      "number": 7,
+      "id": 6089905731,
+      "node_id": "I_kwDOVbIkuM8AAAABavyWQw",
+      "url": "https://github.com/jmf-pobox/github-xp/issues/7",
+      "kind": "task",
+      "item_id": "PVTI_lAHOCUA9U84BpNQQzhEV5q0",
+      "parent_linked": "s1"
+    },
+    "t2": {
+      "number": 8,
+      "id": 6089906903,
+      "node_id": "I_kwDOVbIkuM8AAAABavya1w",
+      "url": "https://github.com/jmf-pobox/github-xp/issues/8",
+      "kind": "task",
+      "item_id": "PVTI_lAHOCUA9U84BpNQQzhEV5wI",
+      "parent_linked": "s2"
+    },
+    "t3": {
+      "number": 9,
+      "id": 6089908069,
+      "node_id": "I_kwDOVbIkuM8AAAABavyfZQ",
+      "url": "https://github.com/jmf-pobox/github-xp/issues/9",
+      "kind": "task",
+      "item_id": "PVTI_lAHOCUA9U84BpNQQzhEV51E",
+      "parent_linked": "s3"
+    },
+    "t4": {
+      "number": 10,
+      "id": 6089909378,
+      "node_id": "I_kwDOVbIkuM8AAAABavykgg",
+      "url": "https://github.com/jmf-pobox/github-xp/issues/10",
+      "kind": "task",
+      "item_id": "PVTI_lAHOCUA9U84BpNQQzhEV540",
+      "parent_linked": "s3"
+    },
+    "t5": {
+      "number": 11,
+      "id": 6089910521,
+      "node_id": "I_kwDOVbIkuM8AAAABavyo-Q",
+      "url": "https://github.com/jmf-pobox/github-xp/issues/11",
+      "kind": "task",
+      "item_id": "PVTI_lAHOCUA9U84BpNQQzhEV58g",
+      "parent_linked": "s4"
+    },
+    "t6": {
+      "number": 12,
+      "id": 6089911716,
+      "node_id": "I_kwDOVbIkuM8AAAABavytpA",
+      "url": "https://github.com/jmf-pobox/github-xp/issues/12",
+      "kind": "task",
+      "item_id": "PVTI_lAHOCUA9U84BpNQQzhEV6AU",
+      "parent_linked": "s5"
+    },
+    "t7": {
+      "number": 13,
+      "id": 6089912758,
+      "node_id": "I_kwDOVbIkuM8AAAABavyxtg",
+      "url": "https://github.com/jmf-pobox/github-xp/issues/13",
+      "kind": "task",
+      "item_id": "PVTI_lAHOCUA9U84BpNQQzhEV6EM",
+      "parent_linked": "s6"
+    },
+    "sp1": {
+      "number": 14,
+      "id": 6089913919,
+      "node_id": "I_kwDOVbIkuM8AAAABavy2Pw",
+      "url": "https://github.com/jmf-pobox/github-xp/issues/14",
+      "kind": "spike",
+      "item_id": "PVTI_lAHOCUA9U84BpNQQzhEV6HQ"
+    },
+    "t8": {
+      "number": 15,
+      "id": 6089944605,
+      "node_id": "I_kwDOVbIkuM8AAAABav0uHQ",
+      "url": "https://github.com/jmf-pobox/github-xp/issues/15",
+      "kind": "task",
+      "item_id": "PVTI_lAHOCUA9U84BpNQQzhEV8AM"
+    }
+  },
+  "views": {
+    "Backlog": {
+      "id": "PVTV_lAHOCUA9U84BpNQQzgMSuOs",
+      "name": "Backlog",
+      "number": 1,
+      "layout": "TABLE_LAYOUT",
+      "filter": "label:\"type:story\" is:open no:iteration",
+      "url": "https://github.com/users/jmf-pobox/projects/3/views/1"
+    },
+    "Iteration Planning": {
+      "id": "PVTV_lAHOCUA9U84BpNQQzgMSuW4",
+      "name": "Iteration Planning",
+      "number": 2,
+      "layout": "TABLE_LAYOUT",
+      "filter": "label:\"type:story\" is:open",
+      "url": "https://github.com/users/jmf-pobox/projects/3/views/2"
+    },
+    "Current Iteration": {
+      "id": "PVTV_lAHOCUA9U84BpNQQzgMSuXE",
+      "name": "Current Iteration",
+      "number": 3,
+      "layout": "BOARD_LAYOUT",
+      "filter": "iteration:@current",
+      "url": "https://github.com/users/jmf-pobox/projects/3/views/3"
+    },
+    "Release Plan": {
+      "id": "PVTV_lAHOCUA9U84BpNQQzgMSuXQ",
+      "name": "Release Plan",
+      "number": 4,
+      "layout": "TABLE_LAYOUT",
+      "filter": "label:\"type:story\"",
+      "url": "https://github.com/users/jmf-pobox/projects/3/views/4"
+    },
+    "Attention": {
+      "id": "PVTV_lAHOCUA9U84BpNQQzgMSuXU",
+      "name": "Attention",
+      "number": 5,
+      "layout": "TABLE_LAYOUT",
+      "filter": "label:\"xp:attention\" is:open",
+      "url": "https://github.com/users/jmf-pobox/projects/3/views/5"
+    },
+    "Iteration Roadmap": {
+      "id": "PVTV_lAHOCUA9U84BpNQQzgMSuXc",
+      "name": "Iteration Roadmap",
+      "number": 6,
+      "layout": "ROADMAP_LAYOUT",
+      "filter": "label:\"type:story\"",
+      "url": "https://github.com/users/jmf-pobox/projects/3/views/6"
+    },
+    "Delivered Stories": {
+      "id": "PVTV_lAHOCUA9U84BpNQQzgMSuYI",
+      "name": "Delivered Stories",
+      "number": 7,
+      "layout": "TABLE_LAYOUT",
+      "filter": "label:\"type:story\" is:closed",
+      "url": "https://github.com/users/jmf-pobox/projects/3/views/7"
+    }
+  },
+  "fields": {
+    "Title": {
+      "id": "PVTF_lAHOCUA9U84BpNQQzhnp6Hw",
+      "name": "Title",
+      "dataType": "TITLE"
+    },
+    "Assignees": {
+      "id": "PVTF_lAHOCUA9U84BpNQQzhnp6H0",
+      "name": "Assignees",
+      "dataType": "ASSIGNEES"
+    },
+    "Status": {
+      "id": "PVTSSF_lAHOCUA9U84BpNQQzhnp6H4",
+      "name": "Status",
+      "dataType": "SINGLE_SELECT",
+      "options": [
+        {
+          "id": "f75ad846",
+          "name": "Todo"
+        },
+        {
+          "id": "47fc9ee4",
+          "name": "In Progress"
+        },
+        {
+          "id": "98236657",
+          "name": "Done"
+        }
+      ]
+    },
+    "Labels": {
+      "id": "PVTF_lAHOCUA9U84BpNQQzhnp6H8",
+      "name": "Labels",
+      "dataType": "LABELS"
+    },
+    "Linked pull requests": {
+      "id": "PVTF_lAHOCUA9U84BpNQQzhnp6IA",
+      "name": "Linked pull requests",
+      "dataType": "LINKED_PULL_REQUESTS"
+    },
+    "Milestone": {
+      "id": "PVTF_lAHOCUA9U84BpNQQzhnp6IE",
+      "name": "Milestone",
+      "dataType": "MILESTONE"
+    },
+    "Repository": {
+      "id": "PVTF_lAHOCUA9U84BpNQQzhnp6II",
+      "name": "Repository",
+      "dataType": "REPOSITORY"
+    },
+    "Reviewers": {
+      "id": "PVTF_lAHOCUA9U84BpNQQzhnp6IQ",
+      "name": "Reviewers",
+      "dataType": "REVIEWERS"
+    },
+    "Parent issue": {
+      "id": "PVTF_lAHOCUA9U84BpNQQzhnp6IU",
+      "name": "Parent issue",
+      "dataType": "PARENT_ISSUE"
+    },
+    "Sub-issues progress": {
+      "id": "PVTF_lAHOCUA9U84BpNQQzhnp6IY",
+      "name": "Sub-issues progress",
+      "dataType": "SUB_ISSUES_PROGRESS"
+    },
+    "Created": {
+      "id": "PVTF_lAHOCUA9U84BpNQQzhnp6Ic",
+      "name": "Created",
+      "dataType": "CREATED"
+    },
+    "Updated": {
+      "id": "PVTF_lAHOCUA9U84BpNQQzhnp6Ig",
+      "name": "Updated",
+      "dataType": "UPDATED"
+    },
+    "Closed": {
+      "id": "PVTF_lAHOCUA9U84BpNQQzhnp6Ik",
+      "name": "Closed",
+      "dataType": "CLOSED"
+    },
+    "Points": {
+      "id": "PVTF_lAHOCUA9U84BpNQQzhnp6kA",
+      "name": "Points",
+      "dataType": "NUMBER"
+    },
+    "Iteration": {
+      "id": "PVTIF_lAHOCUA9U84BpNQQzhnp6kE",
+      "name": "Iteration",
+      "dataType": "ITERATION",
+      "configuration": {
+        "iterations": [
+          {
+            "id": "c7ebe15f",
+            "title": "Demo 2",
+            "startDate": "2026-10-26",
+            "duration": 7
+          },
+          {
+            "id": "2d5a0126",
+            "title": "Demo 3",
+            "startDate": "2026-11-02",
+            "duration": 7
+          }
+        ],
+        "completedIterations": [
+          {
+            "id": "555a3b55",
+            "title": "Demo 1",
+            "startDate": "2026-10-19",
+            "duration": 7
+          }
+        ]
+      }
+    }
+  },
+  "milestones": {
+    "xp-demo-v0.1": {
+      "number": 1,
+      "url": "https://github.com/jmf-pobox/github-xp/milestone/1"
+    },
+    "xp-demo-v0.2": {
+      "number": 2,
+      "url": "https://github.com/jmf-pobox/github-xp/milestone/2"
+    }
+  },
+  "dependency_created": true,
+  "rest_release_view": {
+    "id": 51558919,
+    "number": 8,
+    "name": "Release Planning by Milestone",
+    "layout": "table",
+    "node_id": "PVTV_lAHOCUA9U84BpNQQzgMSugc",
+    "project_url": "https://api.github.com/users/jmf-pobox/projectsV2/3",
+    "html_url": "https://github.com/users/jmf-pobox/projects/3/views/8",
+    "creator": {
+      "login": "jmf-pobox",
+      "id": 155204947,
+      "node_id": "U_kgDOCUA9Uw",
+      "avatar_url": "https://avatars.githubusercontent.com/u/155204947?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/jmf-pobox",
+      "html_url": "https://github.com/jmf-pobox",
+      "followers_url": "https://api.github.com/users/jmf-pobox/followers",
+      "following_url": "https://api.github.com/users/jmf-pobox/following{/other_user}",
+      "gists_url": "https://api.github.com/users/jmf-pobox/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/jmf-pobox/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/jmf-pobox/subscriptions",
+      "organizations_url": "https://api.github.com/users/jmf-pobox/orgs",
+      "repos_url": "https://api.github.com/users/jmf-pobox/repos",
+      "events_url": "https://api.github.com/users/jmf-pobox/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/jmf-pobox/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "created_at": "2026-10-29T00:15:54Z",
+    "updated_at": "2026-10-29T00:15:54Z",
+    "filter": "label:\"type:story\"",
+    "visible_fields": [
+      434759804,
+      434759806,
+      434759809,
+      434759814,
+      434760256,
+      434760257
+    ],
+    "sort_by": [],
+    "group_by": [
+      434759809
+    ],
+    "vertical_group_by": []
+  }
+}

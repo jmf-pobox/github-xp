@@ -1,0 +1,30 @@
+{
+  "node": {
+    "number": 3,
+    "projectItems": {
+      "nodes": [
+        {
+          "project": {
+            "id": "PVT_kwHOCUA9U84BpNQQ"
+          },
+          "fieldValues": {
+            "nodes": [
+              {},
+              {},
+              {},
+              {},
+              {},
+              {
+                "number": 3.0
+              },
+              {
+                "title": "Demo 2",
+                "iterationId": "c7ebe15f"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

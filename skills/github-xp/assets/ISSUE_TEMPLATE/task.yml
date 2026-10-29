@@ -1,0 +1,31 @@
+name: Task
+description: Bounded implementation or verification work under a Story
+title: ""
+labels: ["type:task"]
+body:
+  - type: input
+    id: story
+    attributes:
+      label: Story reference
+      description: Link the parent Story; also establish the native sub-issue relationship.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Describe the bounded work and exclusions. Tasks do not receive Story Points.
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification
+      description: State the evidence required for completion, with applicable specification references.
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies and handoff
+      description: Link blockers and the existing workflow/branch when relevant. Use native dependency links as the record of blockers.

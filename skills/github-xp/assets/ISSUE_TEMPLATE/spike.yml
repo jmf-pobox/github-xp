@@ -1,0 +1,31 @@
+name: Spike
+description: A timeboxed investigation that resolves uncertainty
+title: ""
+labels: ["type:spike"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Learning question
+      description: What decision will this investigation enable?
+    validations:
+      required: true
+  - type: input
+    id: timebox
+    attributes:
+      label: Timebox
+      description: State the maximum effort before reporting learning and remaining uncertainty.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Expected evidence
+      description: Name the experiment or comparison needed. Spikes receive no Story Points or velocity credit.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Findings and next decision
+      description: Fill after investigation; distinguish observations from assumptions and unresolved questions.
