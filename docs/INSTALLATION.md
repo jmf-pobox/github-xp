@@ -37,3 +37,11 @@ A clean local-source `gh skill install ... --from-local --dir <temporary-directo
 The lifecycle suite tests project-scope installation, symlinks/copies, reinstall, collisions and removal. It does not type through the interactive checkbox UI, modify actual user-wide installations, or exercise every host's model after every installer run. Read-only host behavior was tested separately in [VERIFY.md](VERIFY.md). Remote-source update verification is recorded separately below when executed.
 
 For stable adoption, retain the project lock file where produced, review updates, and keep project-specific behavior in repository workflow instructions. Pin the skill to a source ref when exact content matters; pinning `skills@1.7.4` only selects the installer version.
+
+## Remote update verified
+
+Installed the published skill at `23737871` into a temporary project before the packaging commit. After pushing `2cde49e`, ran `npx skills@1.7.4 update github-xp -p -y` in that project. It updated one skill successfully. Every tracked file in the new skill matched the installed payload byte-for-byte, including the newly bundled license and setup instructions. Claude's link still resolved to the canonical folder, and the project lock hash advanced. This is an actual changed-version GitHub-source update, separate from the local-source reinstall checks above.
+
+The remote-source test installation was then removed with `remove github-xp -y`; its canonical folder, Claude link and project lock entry were cleared. No actual user-wide harness installation was changed.
+
+GitHub CI passed for the packaging commit: [installer lifecycle](https://github.com/jmf-pobox/github-xp/actions/runs/40801626445) and [package/runtime validation](https://github.com/jmf-pobox/github-xp/actions/runs/40801626417), including the Python 3.10/3.13 matrix.
