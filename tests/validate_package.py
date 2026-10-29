@@ -12,6 +12,7 @@ assert metadata['name'] == SKILL.name
 assert isinstance(metadata['description'], str) and 0 < len(metadata['description']) <= 1024
 assert len(text.splitlines()) <= 200
 assert 'allowed-tools' not in metadata
+assert (SKILL / 'LICENSE').read_bytes() == (ROOT / 'LICENSE').read_bytes(), 'Bundled license must match root license'
 for path in SKILL.rglob('*.md'):
     content = path.read_text()
     for target in re.findall(r'\]\(([^)]+)\)', content):

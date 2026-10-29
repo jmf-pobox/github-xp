@@ -1,5 +1,23 @@
 # Install and configure
 
+## Install through the shared CLI
+
+From a normal terminal in the target repository, run:
+
+```sh
+npx skills@1.7.4 add jmf-pobox/github-xp --skill github-xp
+```
+
+Choose the harness targets and install method. Add `-g` for user-wide scope; default is project scope. Node 22.20+ is required by this installer, but not by the Python skill helpers. One canonical folder serves Codex, OpenCode and Pi; Claude Code normally receives a symlink. `--copy` requests copies. Shared targets may be grouped in the picker.
+
+Inside an agent, the installer may choose non-interactive mode automatically. Inspect existing destinations before running it; specify `-a codex -a claude-code -a opencode -a pi` when those are the intended targets. Do not assume activation authorizes overwriting another skill of the same name. Reinstall replaces installed content; keep local policies in repository instructions, not in the installed skill.
+
+Update a remote project installation with `npx skills@1.7.4 update github-xp -p`; use `-g` for user-wide updates. Local-source installs are refreshed by repeating `add` against the source path. Remove this skill from the selected scope with `npx skills@1.7.4 remove github-xp` (add `-g` for user-wide removal). Omitting agent filters removes its shared canonical directory and harness links; filtering to individual agents can retain the shared directory. Unrelated skill names are preserved. Avoid `--all`, which selects every skill.
+
+The installed GitHub CLI may also provide the preview `gh skill install` command. For example: `gh skill install jmf-pobox/github-xp github-xp --agent claude-code --scope project`. `--pin <tag-or-commit>` pins source content. Do not mix installers at one destination. The npm version pins the installer, not the skill source.
+
+Sources: [skills CLI](https://github.com/vercel-labs/skills/blob/main/docs/commands.md), [GitHub CLI](https://cli.github.com/manual/gh_skill_install). Instructions above use the tested `skills@1.7.4` interface; newer documentation can describe unreleased behavior.
+
 ## Install the portable folder
 
 Copy the complete `github-xp` directory, including references, scripts and assets, to one chosen host discovery location. Check for an existing installation before copying; do not overwrite it or create duplicate same-named installations silently. Keep the source canonical and update installed copies deliberately.

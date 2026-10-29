@@ -52,3 +52,9 @@ Offline tests cover partial creation/plan/acceptance/rollover recovery; stable o
 - Live helper tests covered inspection, setup/history creation, issue creation, membership and retry. Acceptance, release, fault injection and large pagination behavior were tested offline; they were not all exercised as live writes.
 
 The runtime totals roughly 900 lines across two modules, exceeding the prompt's approximate 600-line target. Complete pagination, preflight/per-action guards, recoverable history, explicit corrections and readable command validation account for the overrun. The entrypoint remains small, and Python runtime dependencies remain stdlib-only.
+
+## Installer packaging follow-up
+
+The distributed skill includes its MIT license, validated against the root license. The pinned `skills@1.7.4` lifecycle test passed locally for all four target harnesses: complete payload, symlink/copy modes, reinstall, replacement of same-name conflicting content, propagation of changed local content and removal preserving unrelated skills. A clean local-source gh installation also retained all supporting file bytes and injected tracking metadata into SKILL.md. See [INSTALLATION.md](INSTALLATION.md) for exact commands, observed limits and remote update results.
+
+The installer smoke workflow runs separately from the 57 offline runtime tests and requires Node/npm registry access. It operates only in temporary directories.
